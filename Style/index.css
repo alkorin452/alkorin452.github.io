@@ -1,0 +1,64 @@
+@font-face{
+    font-family:'quicksand_light';
+    src: url('quicksand.light-regular.otf');
+}
+
+#content {
+    position: relative;
+    z-index: 2;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left : 0;
+    z-index: 1;
+}
+
+.contact {
+    color: #5b6677;
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    margin-top: 10em;
+}
+
+.contact p {
+    font-size: 1.2em;
+    font-family: 'quicksand_light';
+    margin: .4em
+}
+
+.contact_links {
+    text-align: center;
+    padding-right: 40px;
+}
+
+.contact_links li {
+    display: inline-block;
+}
+
+.contact_links a {
+   padding-right: 9px; 
+   padding-left: 9px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #5b6677;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #5b6677;
+}
+
+.contact img {
+    margin: 2em;
+}
+
+a:link {
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: 'quicksand_light';
+}
