@@ -18,20 +18,20 @@ canvas {
 .contact {
     color: #5b6677;
     text-align: center;
-    font-weight: bold;
     width: 50%;
     margin:auto;
     margin-top: 10em;
 }
 
 .contact p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-family: 'quicksand_light';
     margin: .4em
 }
 
 .contact_links {
     text-align: center;
+    margin-top: 2em;
     padding-right: 40px;
 }
 
